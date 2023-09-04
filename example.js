@@ -26,3 +26,11 @@ console.log(myArr);
 let num = 1
 
 console.log(num == true);
+
+
+let grades = [85, 76, 98, 100]
+
+for (let i = 0; i < grades.length; i++) {
+  let currentGrade = grades[i];
+  console.log(`Your grade is ${currentGrade}`);
+}

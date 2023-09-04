@@ -3,16 +3,16 @@
 ## Scenario
 In this lab, you will be simulating a real-world scenario where you need to manage a list of books in a library. 
 The library has a collection of books, and you need to write functions to add new books, remove existing ones, 
-find books by author or title, and display the collection of books. 
+find books by author or title, display the collection of books, etc.
 
 ## Learning Objectives
 - Understand the concept of functions in JavaScript
-- Learn how to use arrays and array methods
+- Understad arrays and array methods
 - Understand strings and string methods
-- Utilize conditional statements
+- Understand conditional statements
 
 ### Task 1: Define a Book
-* Create an object for a book with properties for `title`, `author`, `isbn`, and `availability` (true or false).
+* Create an object for a book with properties for `title`, `author`, `bookId`, and `availability` (true or false).
 
 ### Task 2: Create a Collection of Books
 * Create an array of books which will act as the library's collection.
@@ -22,11 +22,10 @@ find books by author or title, and display the collection of books.
 * Write a function `addBook` which takes a book object as a parameter and adds it to the collection of books.
 
 ### Task 4: Remove a Book from the Collection
-* Write a function `removeBook` which takes an ISBN number as a parameter and removes the corresponding book from the collection.
+* Write a function `removeBook` which takes a Book ID number as a parameter and removes the corresponding book from the collection.
 
 ### Task 5: Find a Book
-* Write a function `findBook` which takes a string as a parameter and searches the collection for a book with a matching title or author.
-   The function should return an array of all books that match the search query.
+* Write a function `findBook` which takes a string as a parameter and searches the collection for a book with a matching title or author. The function should return an array of all books that match the search query.
 
 ### Task 6: Display the Collection
 * Write a function `displayBooks` which displays the entire collection of books.
@@ -48,7 +47,7 @@ Also, provide examples of how to use each function.
 ## Extended Lab Assignment: Advanced Functions in JavaScript
 
 ### Task 8: Book Availability
-* Write a function called `toggleAvailability` which takes an ISBN number as an argument and changes the `availability` status 
+* Write a function called `toggleAvailability` which takes a Book ID number as an argument and changes the `availability` status 
    of the corresponding book in the collection.
 
 ### Task 9: Multiple Copies
@@ -62,7 +61,7 @@ Also, provide examples of how to use each function.
 
 ### Task 11: Book Ratings
 * Add a property called `rating` to your book object. It should hold a number between 0 and 5.
-* Write a function called `setRating` that takes an ISBN and a rating as arguments and sets the rating of the corresponding book.
+* Write a function called `setRating` that takes a Book ID and a rating as arguments and sets the rating of the corresponding book.
 
 ### Task 12: Summary Function
 Write a function called `librarySummary` that provides a summary of the library. 

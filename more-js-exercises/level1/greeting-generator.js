@@ -1,6 +1,14 @@
 /*
 You're building a simple greeting generator. 
 Given a list of names in an array, print a personalized greeting for each name.
+
+
+Example input: ["Jim", "Jimmy", "James"]
+
+Example output:
+Hi Jim!
+Hi Jimmy!
+Hi James!
 */
 
 //the names
@@ -11,7 +19,7 @@ const names = ["Alice", "Charlie", "Diego", "Eve", "Fiona", "Hassan", "Isabel", 
 for (let i = 0; i < names.length; i++) {
   //store the current name in a variable
   //your code here
-
+  
   //log out a greeting using string interpolation
   //your code here
   
