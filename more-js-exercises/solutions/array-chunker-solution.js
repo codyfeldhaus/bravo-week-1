@@ -1,5 +1,5 @@
 //necessary for testing, do not change the following line
-import assert from 'assert';
+let assert = require("assert");
 
 /**
 Write a function chunkArray(arr, size) that splits an array into chunks 
@@ -30,21 +30,21 @@ function chunkArray(arr, size) {
 
 
 //Uncomment the following lines to run tests:
-// try {
-//   assert(JSON.stringify(chunkArray([1,2,3,4,5,6,7,8], 3)) == JSON.stringify([[1,2,3], [4,5,6], [7,8]]));
-//   console.log("Test 1 passed!");
-// } catch {
-//   console.log("Test 1 failed.");
-// }
-// try {
-//   assert(JSON.stringify(chunkArray([1,2,3,4,5], 2)) == JSON.stringify([[1,2], [3,4], [5]]));
-//   console.log("Test 2 passed!");
-// } catch {
-//   console.log("Test 2 failed.");
-// }
-// try {
-//   assert(JSON.stringify(chunkArray([1,2,3], 5)) == JSON.stringify([[1,2,3]]));
-//   console.log("Test 3 passed!");
-// } catch {
-//   console.log("Test 3 failed.");
-// }
+try {
+  assert(JSON.stringify(chunkArray([1,2,3,4,5,6,7,8], 3)) == JSON.stringify([[1,2,3], [4,5,6], [7,8]]));
+  console.log("Test 1 passed!");
+} catch {
+  console.log("Test 1 failed.");
+}
+try {
+  assert(JSON.stringify(chunkArray([1,2,3,4,5], 2)) == JSON.stringify([[1,2], [3,4], [5]]));
+  console.log("Test 2 passed!");
+} catch {
+  console.log("Test 2 failed.");
+}
+try {
+  assert(JSON.stringify(chunkArray([1,2,3], 5)) == JSON.stringify([[1,2,3]]));
+  console.log("Test 3 passed!");
+} catch {
+  console.log("Test 3 failed.");
+}

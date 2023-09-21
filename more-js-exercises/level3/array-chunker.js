@@ -1,5 +1,5 @@
 //necessary for testing, do not change the following line
-import assert from 'assert';
+let assert = require("assert");
 
 /**
 Write a function chunkArray(arr, size) that splits an array into chunks 
